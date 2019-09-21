@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FIRMAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="KATEGORI">
+    <Key>
+      <PropertyRef Name="KATEGORI_REFNO" />
+    </Key>
+    <Property Name="KATEGORI_REFNO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KATEGORI_ADI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="URUNs" Relationship="Self.FK_URUN_KATEGORI" FromRole="KATEGORI" ToRole="URUN" />
+  </EntityType>
+  <EntityType Name="KULLANICI">
+    <Key>
+      <PropertyRef Name="KULLANICI_REFNO" />
+    </Key>
+    <Property Name="KULLANICI_REFNO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KULLANICI_ADI" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PAROLA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MARKA">
+    <Key>
+      <PropertyRef Name="MARKA_REFNO" />
+    </Key>
+    <Property Name="MARKA_REFNO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MARKA_ADI" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="URUNs" Relationship="Self.FK_URUN_MARKA" FromRole="MARKA" ToRole="URUN" />
+  </EntityType>
+  <EntityType Name="PROJE">
+    <Key>
+      <PropertyRef Name="PROJE_REFNO" />
+    </Key>
+    <Property Name="PROJE_REFNO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ADI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RESIM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ACIKLAMA" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SAYFA">
+    <Key>
+      <PropertyRef Name="SAYFA_REFNO" />
+    </Key>
+    <Property Name="SAYFA_REFNO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BASLIK" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ICERIK" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SLIDER">
+    <Key>
+      <PropertyRef Name="SLIDER_REFNO" />
+    </Key>
+    <Property Name="SLIDER_REFNO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BASLIK" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LINK" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RESIM" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DURUMU" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="URUN">
+    <Key>
+      <PropertyRef Name="URUN_REFNO" />
+    </Key>
+    <Property Name="URUN_REFNO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="URUN_ADI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FIYATI" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="DURUMU" Type="Boolean" Nullable="false" />
+    <Property Name="KATEGORI_REFNO" Type="Int32" Nullable="false" />
+    <Property Name="KDV_ORANI" Type="Int32" Nullable="false" />
+    <Property Name="MARKA_REFNO" Type="Int32" Nullable="false" />
+    <Property Name="ACIKLAMA" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="RESIM1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RESIM2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RESIM3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RESIM4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="KATEGORI" Relationship="Self.FK_URUN_KATEGORI" FromRole="URUN" ToRole="KATEGORI" />
+    <NavigationProperty Name="MARKA" Relationship="Self.FK_URUN_MARKA" FromRole="URUN" ToRole="MARKA" />
+  </EntityType>
+  <Association Name="FK_URUN_KATEGORI">
+    <End Role="KATEGORI" Type="Self.KATEGORI" Multiplicity="1" />
+    <End Role="URUN" Type="Self.URUN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI">
+        <PropertyRef Name="KATEGORI_REFNO" />
+      </Principal>
+      <Dependent Role="URUN">
+        <PropertyRef Name="KATEGORI_REFNO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_URUN_MARKA">
+    <End Role="MARKA" Type="Self.MARKA" Multiplicity="1" />
+    <End Role="URUN" Type="Self.URUN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MARKA">
+        <PropertyRef Name="MARKA_REFNO" />
+      </Principal>
+      <Dependent Role="URUN">
+        <PropertyRef Name="MARKA_REFNO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FIRMAEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="KATEGORIs" EntityType="Self.KATEGORI" />
+    <EntitySet Name="KULLANICIs" EntityType="Self.KULLANICI" />
+    <EntitySet Name="MARKAs" EntityType="Self.MARKA" />
+    <EntitySet Name="PROJEs" EntityType="Self.PROJE" />
+    <EntitySet Name="SAYFAs" EntityType="Self.SAYFA" />
+    <EntitySet Name="SLIDERs" EntityType="Self.SLIDER" />
+    <EntitySet Name="URUNs" EntityType="Self.URUN" />
+    <AssociationSet Name="FK_URUN_KATEGORI" Association="Self.FK_URUN_KATEGORI">
+      <End Role="KATEGORI" EntitySet="KATEGORIs" />
+      <End Role="URUN" EntitySet="URUNs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_URUN_MARKA" Association="Self.FK_URUN_MARKA">
+      <End Role="MARKA" EntitySet="MARKAs" />
+      <End Role="URUN" EntitySet="URUNs" />
+    </AssociationSet>
+    <EntitySet Name="VW_URUN_MARKA_KATEGORI" EntityType="FIRMAModel.VW_URUN_MARKA_KATEGORI" />
+  </EntityContainer>
+  <EntityType Name="VW_URUN_MARKA_KATEGORI">
+    <Key>
+      <PropertyRef Name="RESIM1" />
+      <PropertyRef Name="MARKA_REFNO" />
+      <PropertyRef Name="KDV_ORANI" />
+      <PropertyRef Name="KATEGORI_REFNO" />
+      <PropertyRef Name="DURUMU" />
+      <PropertyRef Name="FIYATI" />
+      <PropertyRef Name="URUN_ADI" />
+      <PropertyRef Name="URUN_REFNO" />
+      <PropertyRef Name="MARKA_ADI" />
+      <PropertyRef Name="KATEGORI_ADI" />
+    </Key>
+    <Property Name="RESIM4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RESIM3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RESIM2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RESIM1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ACIKLAMA" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="MARKA_REFNO" Type="Int32" Nullable="false" />
+    <Property Name="KDV_ORANI" Type="Int32" Nullable="false" />
+    <Property Name="KATEGORI_REFNO" Type="Int32" Nullable="false" />
+    <Property Name="DURUMU" Type="Boolean" Nullable="false" />
+    <Property Name="FIYATI" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="URUN_ADI" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="URUN_REFNO" Type="Int32" Nullable="false" />
+    <Property Name="MARKA_ADI" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="KATEGORI_ADI" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

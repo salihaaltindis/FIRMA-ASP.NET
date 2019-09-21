@@ -1,0 +1,101 @@
+﻿body {
+}
+
+.yonetim {
+    background-color: #2783b9;
+    height: 50px;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    vertical-align:central;
+}
+
+.linkler {
+    background-color: #f2851d;
+    height: 40px;
+    margin: 10px 0px 5px 0px;
+
+}
+
+.linkler a{
+    color:white;
+    vertical-align:central;
+    padding:5px;
+}
+
+    .linkler a:hover {
+        color: yellow;
+        cursor: pointer;
+    }
+
+.footer {
+    background-color: #2783b9;
+    color: white;
+}
+
+#arayenibar{
+    background-color:#fbaa2a;
+    padding:10px;
+    color:white;
+    
+}
+
+
+img {
+    width: 100px;
+}
+
+
+
+input[type="submit" i] {
+    background-color: #e2dfdf;
+    color: black;
+    border-radius: 5px;
+    color: black;
+    margin: 10px 0px 0px 0px;
+    height:25px;
+    width:70px;
+    vertical-align:central;
+
+   
+}
+
+    input[type="submit" i]:hover {
+        color: yellow;
+        cursor: pointer;
+    }
+
+#GridView1 table tr:hover:not(:first-child){
+    cursor:pointer;
+}
+
+input[type="file" i]{
+    border:none;
+    font-size:12px;
+    margin: 10px 0px 0px 0px;
+    color:black;
+    vertical-align:central;
+}
+
+#txtKULLANICIADI {
+    background: url('../Images/user.png') left no-repeat;
+    padding-left: 25px;
+    height: 30px;
+    line-height: 30px;
+    
+}
+
+
+#txtPAROLA {
+    background: url('../Images/password.png') left no-repeat;
+    padding-left: 25px;
+    height: 30px;
+    line-height: 30px;
+}
+
+fieldset{
+    position:top;
+    position:center;
+}

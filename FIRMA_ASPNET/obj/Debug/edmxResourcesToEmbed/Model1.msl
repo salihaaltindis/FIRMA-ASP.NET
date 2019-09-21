@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FIRMAModelStoreContainer" CdmEntityContainer="FIRMAEntities">
+    <EntitySetMapping Name="KATEGORIs">
+      <EntityTypeMapping TypeName="FIRMAModel.KATEGORI">
+        <MappingFragment StoreEntitySet="KATEGORI">
+          <ScalarProperty Name="KATEGORI_REFNO" ColumnName="KATEGORI_REFNO" />
+          <ScalarProperty Name="KATEGORI_ADI" ColumnName="KATEGORI_ADI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KULLANICIs">
+      <EntityTypeMapping TypeName="FIRMAModel.KULLANICI">
+        <MappingFragment StoreEntitySet="KULLANICI">
+          <ScalarProperty Name="KULLANICI_REFNO" ColumnName="KULLANICI_REFNO" />
+          <ScalarProperty Name="KULLANICI_ADI" ColumnName="KULLANICI_ADI" />
+          <ScalarProperty Name="PAROLA" ColumnName="PAROLA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MARKAs">
+      <EntityTypeMapping TypeName="FIRMAModel.MARKA">
+        <MappingFragment StoreEntitySet="MARKA">
+          <ScalarProperty Name="MARKA_REFNO" ColumnName="MARKA_REFNO" />
+          <ScalarProperty Name="MARKA_ADI" ColumnName="MARKA_ADI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROJEs">
+      <EntityTypeMapping TypeName="FIRMAModel.PROJE">
+        <MappingFragment StoreEntitySet="PROJE">
+          <ScalarProperty Name="PROJE_REFNO" ColumnName="PROJE_REFNO" />
+          <ScalarProperty Name="ADI" ColumnName="ADI" />
+          <ScalarProperty Name="RESIM" ColumnName="RESIM" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SAYFAs">
+      <EntityTypeMapping TypeName="FIRMAModel.SAYFA">
+        <MappingFragment StoreEntitySet="SAYFA">
+          <ScalarProperty Name="SAYFA_REFNO" ColumnName="SAYFA_REFNO" />
+          <ScalarProperty Name="BASLIK" ColumnName="BASLIK" />
+          <ScalarProperty Name="ICERIK" ColumnName="ICERIK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SLIDERs">
+      <EntityTypeMapping TypeName="FIRMAModel.SLIDER">
+        <MappingFragment StoreEntitySet="SLIDER">
+          <ScalarProperty Name="SLIDER_REFNO" ColumnName="SLIDER_REFNO" />
+          <ScalarProperty Name="BASLIK" ColumnName="BASLIK" />
+          <ScalarProperty Name="LINK" ColumnName="LINK" />
+          <ScalarProperty Name="RESIM" ColumnName="RESIM" />
+          <ScalarProperty Name="DURUMU" ColumnName="DURUMU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="URUNs">
+      <EntityTypeMapping TypeName="FIRMAModel.URUN">
+        <MappingFragment StoreEntitySet="URUN">
+          <ScalarProperty Name="URUN_REFNO" ColumnName="URUN_REFNO" />
+          <ScalarProperty Name="URUN_ADI" ColumnName="URUN_ADI" />
+          <ScalarProperty Name="FIYATI" ColumnName="FIYATI" />
+          <ScalarProperty Name="DURUMU" ColumnName="DURUMU" />
+          <ScalarProperty Name="KATEGORI_REFNO" ColumnName="KATEGORI_REFNO" />
+          <ScalarProperty Name="KDV_ORANI" ColumnName="KDV_ORANI" />
+          <ScalarProperty Name="MARKA_REFNO" ColumnName="MARKA_REFNO" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+          <ScalarProperty Name="RESIM1" ColumnName="RESIM1" />
+          <ScalarProperty Name="RESIM2" ColumnName="RESIM2" />
+          <ScalarProperty Name="RESIM3" ColumnName="RESIM3" />
+          <ScalarProperty Name="RESIM4" ColumnName="RESIM4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_URUN_MARKA_KATEGORI">
+      <EntityTypeMapping TypeName="FIRMAModel.VW_URUN_MARKA_KATEGORI">
+        <MappingFragment StoreEntitySet="VW_URUN_MARKA_KATEGORI">
+          <ScalarProperty Name="KATEGORI_ADI" ColumnName="KATEGORI_ADI" />
+          <ScalarProperty Name="MARKA_ADI" ColumnName="MARKA_ADI" />
+          <ScalarProperty Name="URUN_REFNO" ColumnName="URUN_REFNO" />
+          <ScalarProperty Name="URUN_ADI" ColumnName="URUN_ADI" />
+          <ScalarProperty Name="FIYATI" ColumnName="FIYATI" />
+          <ScalarProperty Name="DURUMU" ColumnName="DURUMU" />
+          <ScalarProperty Name="KATEGORI_REFNO" ColumnName="KATEGORI_REFNO" />
+          <ScalarProperty Name="KDV_ORANI" ColumnName="KDV_ORANI" />
+          <ScalarProperty Name="MARKA_REFNO" ColumnName="MARKA_REFNO" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+          <ScalarProperty Name="RESIM1" ColumnName="RESIM1" />
+          <ScalarProperty Name="RESIM2" ColumnName="RESIM2" />
+          <ScalarProperty Name="RESIM3" ColumnName="RESIM3" />
+          <ScalarProperty Name="RESIM4" ColumnName="RESIM4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

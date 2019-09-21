@@ -1,0 +1,180 @@
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\FIRMA_ASPNET.dll.config
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\FIRMA_ASPNET.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\FIRMA_ASPNET.pdb
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csc.exe
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csc.exe.config
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csc.rsp
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csi.exe
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csi.exe.config
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csi.rsp
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.Managed.Core.targets
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.AppContext.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Collections.Immutable.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Console.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.Compression.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.FileSystem.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.Pipes.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Reflection.Metadata.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.AccessControl.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Claims.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Principal.Windows.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.ValueTuple.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.XmlDocument.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.XPath.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\vbc.exe
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\vbc.exe.config
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\vbc.rsp
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\VBCSCompiler.exe
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\VBCSCompiler.exe.config
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.SqlServer.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.xml
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.SqlServer.xml
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.csproj.CoreCompileInputs.cache
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.csproj.CopyComplete
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.dll
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.pdb
+C:\ASP.NET\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.csprojAssemblyReference.cache
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\FIRMA_ASPNET.dll.config
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\FIRMA_ASPNET.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\FIRMA_ASPNET.pdb
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csc.exe
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csc.exe.config
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csc.rsp
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csi.exe
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csi.exe.config
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csi.rsp
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.Managed.Core.targets
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.AppContext.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Collections.Immutable.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Console.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.Compression.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.FileSystem.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.Pipes.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Reflection.Metadata.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.AccessControl.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Claims.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Principal.Windows.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.ValueTuple.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.XmlDocument.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.XPath.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\vbc.exe
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\vbc.exe.config
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\vbc.rsp
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\VBCSCompiler.exe
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\VBCSCompiler.exe.config
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.SqlServer.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.xml
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.SqlServer.xml
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.csprojAssemblyReference.cache
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.csproj.CoreCompileInputs.cache
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.csproj.CopyComplete
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.dll
+G:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.pdb
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\FIRMA_ASPNET.dll.config
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\FIRMA_ASPNET.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\FIRMA_ASPNET.pdb
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csc.exe
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csc.exe.config
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csc.rsp
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csi.exe
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csi.exe.config
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\csi.rsp
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.Managed.Core.targets
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.AppContext.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Collections.Immutable.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Console.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.Compression.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.FileSystem.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.IO.Pipes.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Reflection.Metadata.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.AccessControl.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Claims.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Security.Principal.Windows.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.ValueTuple.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.XmlDocument.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.XPath.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\vbc.exe
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\vbc.exe.config
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\vbc.rsp
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\VBCSCompiler.exe
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\roslyn\VBCSCompiler.exe.config
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.SqlServer.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.xml
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\EntityFramework.SqlServer.xml
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.csproj.CoreCompileInputs.cache
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.csproj.CopyComplete
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.dll
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.pdb
+F:\TÜM İŞKUR\asp.net\FIRMA_ASPNET\FIRMA_ASPNET\obj\Debug\FIRMA_ASPNET.csprojAssemblyReference.cache

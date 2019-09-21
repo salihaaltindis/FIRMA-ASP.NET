@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FIRMAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="KATEGORI">
+    <Key>
+      <PropertyRef Name="KATEGORI_REFNO" />
+    </Key>
+    <Property Name="KATEGORI_REFNO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KATEGORI_ADI" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KULLANICI">
+    <Key>
+      <PropertyRef Name="KULLANICI_REFNO" />
+    </Key>
+    <Property Name="KULLANICI_REFNO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KULLANICI_ADI" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PAROLA" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MARKA">
+    <Key>
+      <PropertyRef Name="MARKA_REFNO" />
+    </Key>
+    <Property Name="MARKA_REFNO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MARKA_ADI" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PROJE">
+    <Key>
+      <PropertyRef Name="PROJE_REFNO" />
+    </Key>
+    <Property Name="PROJE_REFNO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ADI" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="RESIM" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ACIKLAMA" Type="varchar" MaxLength="1000" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SAYFA">
+    <Key>
+      <PropertyRef Name="SAYFA_REFNO" />
+    </Key>
+    <Property Name="SAYFA_REFNO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BASLIK" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ICERIK" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SLIDER">
+    <Key>
+      <PropertyRef Name="SLIDER_REFNO" />
+    </Key>
+    <Property Name="SLIDER_REFNO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BASLIK" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="LINK" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="RESIM" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="DURUMU" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="URUN">
+    <Key>
+      <PropertyRef Name="URUN_REFNO" />
+    </Key>
+    <Property Name="URUN_REFNO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="URUN_ADI" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FIYATI" Type="numeric" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="DURUMU" Type="bit" Nullable="false" />
+    <Property Name="KATEGORI_REFNO" Type="int" Nullable="false" />
+    <Property Name="KDV_ORANI" Type="int" Nullable="false" />
+    <Property Name="MARKA_REFNO" Type="int" Nullable="false" />
+    <Property Name="ACIKLAMA" Type="varchar" MaxLength="4000" />
+    <Property Name="RESIM1" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="RESIM2" Type="varchar" MaxLength="50" />
+    <Property Name="RESIM3" Type="varchar" MaxLength="50" />
+    <Property Name="RESIM4" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FIRMA.dbo.VW_URUN' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FIRMA.dbo.VW_URUN_MARKA_KATEGORI' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VW_URUN_MARKA_KATEGORI">
+    <Key>
+      <PropertyRef Name="RESIM1" />
+      <PropertyRef Name="MARKA_REFNO" />
+      <PropertyRef Name="KDV_ORANI" />
+      <PropertyRef Name="KATEGORI_REFNO" />
+      <PropertyRef Name="DURUMU" />
+      <PropertyRef Name="FIYATI" />
+      <PropertyRef Name="URUN_ADI" />
+      <PropertyRef Name="URUN_REFNO" />
+      <PropertyRef Name="MARKA_ADI" />
+      <PropertyRef Name="KATEGORI_ADI" />
+    </Key>
+    <Property Name="RESIM4" Type="varchar" MaxLength="50" />
+    <Property Name="RESIM3" Type="varchar" MaxLength="50" />
+    <Property Name="RESIM2" Type="varchar" MaxLength="50" />
+    <Property Name="RESIM1" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ACIKLAMA" Type="varchar" MaxLength="4000" />
+    <Property Name="MARKA_REFNO" Type="int" Nullable="false" />
+    <Property Name="KDV_ORANI" Type="int" Nullable="false" />
+    <Property Name="KATEGORI_REFNO" Type="int" Nullable="false" />
+    <Property Name="DURUMU" Type="bit" Nullable="false" />
+    <Property Name="FIYATI" Type="numeric" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="URUN_ADI" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="URUN_REFNO" Type="int" Nullable="false" />
+    <Property Name="MARKA_ADI" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="KATEGORI_ADI" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_URUN_KATEGORI">
+    <End Role="KATEGORI" Type="Self.KATEGORI" Multiplicity="1" />
+    <End Role="URUN" Type="Self.URUN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI">
+        <PropertyRef Name="KATEGORI_REFNO" />
+      </Principal>
+      <Dependent Role="URUN">
+        <PropertyRef Name="KATEGORI_REFNO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_URUN_MARKA">
+    <End Role="MARKA" Type="Self.MARKA" Multiplicity="1" />
+    <End Role="URUN" Type="Self.URUN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MARKA">
+        <PropertyRef Name="MARKA_REFNO" />
+      </Principal>
+      <Dependent Role="URUN">
+        <PropertyRef Name="MARKA_REFNO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FIRMAModelStoreContainer">
+    <EntitySet Name="KATEGORI" EntityType="Self.KATEGORI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KULLANICI" EntityType="Self.KULLANICI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MARKA" EntityType="Self.MARKA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PROJE" EntityType="Self.PROJE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SAYFA" EntityType="Self.SAYFA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SLIDER" EntityType="Self.SLIDER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="URUN" EntityType="Self.URUN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VW_URUN_MARKA_KATEGORI" EntityType="Self.VW_URUN_MARKA_KATEGORI" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VW_URUN_MARKA_KATEGORI].[RESIM4] AS [RESIM4], 
+    [VW_URUN_MARKA_KATEGORI].[RESIM3] AS [RESIM3], 
+    [VW_URUN_MARKA_KATEGORI].[RESIM2] AS [RESIM2], 
+    [VW_URUN_MARKA_KATEGORI].[RESIM1] AS [RESIM1], 
+    [VW_URUN_MARKA_KATEGORI].[ACIKLAMA] AS [ACIKLAMA], 
+    [VW_URUN_MARKA_KATEGORI].[MARKA_REFNO] AS [MARKA_REFNO], 
+    [VW_URUN_MARKA_KATEGORI].[KDV_ORANI] AS [KDV_ORANI], 
+    [VW_URUN_MARKA_KATEGORI].[KATEGORI_REFNO] AS [KATEGORI_REFNO], 
+    [VW_URUN_MARKA_KATEGORI].[DURUMU] AS [DURUMU], 
+    [VW_URUN_MARKA_KATEGORI].[FIYATI] AS [FIYATI], 
+    [VW_URUN_MARKA_KATEGORI].[URUN_ADI] AS [URUN_ADI], 
+    [VW_URUN_MARKA_KATEGORI].[URUN_REFNO] AS [URUN_REFNO], 
+    [VW_URUN_MARKA_KATEGORI].[MARKA_ADI] AS [MARKA_ADI], 
+    [VW_URUN_MARKA_KATEGORI].[KATEGORI_ADI] AS [KATEGORI_ADI]
+    FROM [dbo].[VW_URUN_MARKA_KATEGORI] AS [VW_URUN_MARKA_KATEGORI]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_URUN_KATEGORI" Association="Self.FK_URUN_KATEGORI">
+      <End Role="KATEGORI" EntitySet="KATEGORI" />
+      <End Role="URUN" EntitySet="URUN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_URUN_MARKA" Association="Self.FK_URUN_MARKA">
+      <End Role="MARKA" EntitySet="MARKA" />
+      <End Role="URUN" EntitySet="URUN" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

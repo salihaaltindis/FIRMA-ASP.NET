@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Yonetim.master.cs" Inherits="FIRMA_ASPNET.Admin.Yonetim" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+    <script src="/ckeditor/ckeditor.js"></script>
+    <script src="/ckfinder/ckfinder.js"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!--dive karsılık panel-->
+            
+            <div class="yonetim">
+                <asp:Panel ID="Panel1" runat="server" >
+                YÖNETİM PANELİ
+            </asp:Panel>
+            </div>
+            
+            
+            
+            <asp:Panel ID="Panel2" runat="server" >
+                <div class="linkler">
+
+                <asp:HyperLink ID="HyperLink1" runat="server" Text="Kategori" NavigateUrl="Kategori.aspx"></asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="Kullanici.aspx">Kullanıcı</asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="Marka.aspx">Marka</asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="Proje.aspx">Proje</asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="Sayfa.aspx">Sayfa</asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="Slider.aspx">Slider</asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="Urun.aspx">Ürün</asp:HyperLink>
+            
+            </div>
+            </asp:Panel>
+            
+            <asp:Panel ID="Panel3" runat="server">
+                <!--diğer sayfaların içeik alacagı yer-->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </asp:Panel>
+            
+            <div class="footer">
+            <asp:Panel ID="Panel4" runat="server" >
+                FOOTER
+            </asp:Panel>
+            </div>
+            
+        </div>
+    </form>
+</body>
+</html>
